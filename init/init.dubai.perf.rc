@@ -17,6 +17,9 @@ write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/down_rate_limit_us 10000
 write /sys/devices/system/cpu/cpu7/cpufreq/schedutil/up_rate_limit_us 500
 write /sys/devices/system/cpu/cpu7/cpufreq/schedutil/down_rate_limit_us 5000
 
+# Configure scheduler
+write /proc/sys/kernel/sched_group_downmigrate 25
+
 # CPUSets
 write /dev/cpuset/background/cpus 0-1
 write /dev/cpuset/system-background/cpus 0-3
