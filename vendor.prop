@@ -76,3 +76,8 @@ vendor.gatekeeper.disable_spu=true
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
+
+# ZRAM
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=1440
+ro.zram.periodic_wb_delay_hours=24
