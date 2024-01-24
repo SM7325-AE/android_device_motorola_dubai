@@ -1452,10 +1452,6 @@ vendor/etc/init/init_thermal-engine.rc
 -vendor/lib64/libthermalclient.so
 
 # Thermal Engine (Configs)
-vendor/etc/thermal-engine-dubai-dhrystone.conf
-vendor/etc/thermal-engine-dubai-game-normal.conf
-vendor/etc/thermal-engine-dubai-game-perf.conf
-vendor/etc/thermal-engine-dubai.conf
 vendor/etc/thermal-engine.conf
 
 # Time Service

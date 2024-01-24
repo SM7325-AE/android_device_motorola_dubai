@@ -361,6 +361,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.mock
 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/thermal/thermal-engine-dubai.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-dubai.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-engine-dubai-dhrystone.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-dubai-dhrystone.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-engine-dubai-game-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-dubai-game-normal.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-engine-dubai-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-dubai-game-perf.conf
+
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
