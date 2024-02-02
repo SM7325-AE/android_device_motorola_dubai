@@ -13,3 +13,9 @@ vendor.audio.feature.vbat.enable=false
 # Display
 persist.sys.sf.color_mode=0
 vendor.display.enable_async_powermode=1
+
+# Volume
+ro.config.media_vol_default=8
+ro.config.media_vol_steps=25
+ro.config.vc_call_vol_default=5
+ro.config.vc_call_vol_steps=10
